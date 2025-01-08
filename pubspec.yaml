@@ -1,0 +1,33 @@
+name: expense_tracker
+description: A new Flutter project for expense tracking
+
+publish_to: 'none' # Remove this line if you want to publish the package
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.0.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  fl_chart: ^0.65.0  # Updated dependency
+  intl: ^0.17.0 # Change the version to ^0.17.0
+  # You can add more dependencies here if needed
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  hive_generator: ^1.1.3
+  build_runner: ^2.3.3
+
+flutter:
+  uses-material-design: true
+
+    # Add your assets folder here if you have images or other resources
+
+  # Add the following to enable code generation with Hive
+  generate: true
